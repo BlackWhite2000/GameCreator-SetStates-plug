@@ -1,0 +1,327 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 9001,
+    "blockList": [
+        {
+            "name": "开始战斗",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "52831894612_0.7518826373351752",
+                        "varName": "battleResultSwitch",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 7,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "储存胜利结果",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 120,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "56550825444_0.3048294946691761",
+                            "value": 1,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 125,
+                    "x": 16,
+                    "width": 414,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56548051738_0.9497465920929424",
+                        "varName": "allowEscape",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "允许逃跑",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 90,
+                    "x": 15,
+                    "width": 128,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56550825444_0.3048294946691761",
+                        "varName": "battleFailHandleType",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "游戏结束,继续执行后续事件",
+                                "showIndex": true
+                            }
+                        },
+                        "defaultValue": "0",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战败处理",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 120,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 50,
+                    "x": 15,
+                    "width": 350,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56612352518_0.8757737943080137",
+                        "varName": "enemyParty",
+                        "varType": 4,
+                        "compData": {
+                            "compType": 1002,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 11,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "敌人队伍",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 120,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "107366021423_0.28893448053706616",
+                            "value": 0,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 15,
+                    "width": 350,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "107366047590_0.870679845642909",
+                        "varName": "enemyPartyVarID",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 6,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 11,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "敌人队伍",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 120,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "107366021423_0.28893448053706616",
+                            "value": 1,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 15,
+                    "width": 350,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56640224257_0.3234397584799653",
+                        "varName": "removeDeadBattler",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "移除已经死亡的敌人",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 90,
+                    "x": 133,
+                    "width": 157,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "107366021423_0.28893448053706616",
+                        "varName": "useVar",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "常量,变量",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "使用变量",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 370,
+                    "width": 110,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 168,
+            "autoOrder": true,
+            "hideBlockTitle": true,
+            "cmdColor": "#ff5959",
+            "cmdIcon": "asset/image/command/eP_icon_Combat_red.png"
+        }
+    ],
+    "isCustomPhraseDesc": true,
+    "fastModifyAttribute": false,
+    "customPhraseDescTS": "// 根据属性名称值编写自定义短语描述，如：\"我的短语是\"+attrs.xxx\n// 使用下拉框组件的变量attrs.xxx有对应的attrs.xxxItems的属性以便获得标签名集合\n// 获取自定义模块的数据名称的函数：getModuleDataName(moduleID:number,dataID:number):string;\n// 获取各种列表内数据名称的函数：getTypeDataListName(typeID: number, dataID: number):string;\n// 获取自定义游戏数值描述的函数：getCustomGameNumber(customGameNumber: any[]):string;\n// 获取自定义游戏字符串描述的函数：getCustomGameString(customGameString: any[]):string;\n// 获取自定义游戏开关描述的函数：：getCustomGameSwitch(customGameSwitch: any[]):string;\n// -- typeID ：0-全局变量 1-全局开关 2-全局字符串 3-玩家变量 4-玩家开关 5-玩家字符串\n//           ：6-场景列表 7-场景对象原型列表 8-图块列表 9-行走图列表 10-行走图动作列表 11-立绘列表 12-立绘表情列表\n//           ：13-事件库列表 14-对话框列表 15-动画列表 16-动画信号列表 17-界面列表 18-数据结构列表 19-自定义模块列表\n//           ：20-自定义指令列表 21-自定义行为列表 22-自动元件列表 23-行走图部件列表 24-立绘部件列表 25-材质列表 26-场景对象模块\nlet str: string;\nif (attrs.useVar) {\n    str = `[@v${attrs.enemyPartyVarID}-${getTypeDataListName(3, attrs.enemyPartyVarID)}]`;\n}\nelse {\n    str = `[${attrs.enemyParty}-${getModuleDataName(11, attrs.enemyParty)}]`;\n}\nif (attrs.allowEscape) {\n    str += `\\n- 允许逃跑`;\n}\nif (attrs.removeDeadBattler) {\n    str += `\\n- 移除已经死亡的敌人`;\n}\nif (attrs.battleFailHandleType == 1) {\n    str += `\\n- 战败后继续，储存结果至：「@w${attrs.battleResultSwitch}-${getTypeDataListName(4, attrs.battleResultSwitch)}」`;\n}\nstr;\n\n\n",
+    "customPhraseDescJS": "var str;\nif (attrs.useVar) {\n    str = \"[@v\" + attrs.enemyPartyVarID + \"-\" + getTypeDataListName(3, attrs.enemyPartyVarID) + \"]\";\n}\nelse {\n    str = \"[\" + attrs.enemyParty + \"-\" + getModuleDataName(11, attrs.enemyParty) + \"]\";\n}\nif (attrs.allowEscape) {\n    str += \"\\n- \\u5141\\u8BB8\\u9003\\u8DD1\";\n}\nif (attrs.removeDeadBattler) {\n    str += \"\\n- \\u79FB\\u9664\\u5DF2\\u7ECF\\u6B7B\\u4EA1\\u7684\\u654C\\u4EBA\";\n}\nif (attrs.battleFailHandleType == 1) {\n    str += \"\\n- \\u6218\\u8D25\\u540E\\u7EE7\\u7EED\\uFF0C\\u50A8\\u5B58\\u7ED3\\u679C\\u81F3\\uFF1A\\u300C@w\" + attrs.battleResultSwitch + \"-\" + getTypeDataListName(4, attrs.battleResultSwitch) + \"\\u300D\";\n}\nstr;\n"
+}

@@ -1,0 +1,314 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52668508790_0.4146352244222731",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "unequipBtn",
+                "x": 0,
+                "y": 0,
+                "width": 195,
+                "height": 54,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/propFrame.png",
+                "grid9": "25,25,25,25,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "109902320751_0.481418478150357",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "卸下装备背景",
+                        "x": 0,
+                        "y": 0,
+                        "width": 195,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/propBg.png",
+                        "grid9": "10,10,10,10,0",
+                        "flip": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "52668597926_0.20791701610758873",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "卸下装备文本",
+                        "x": 0,
+                        "y": 0,
+                        "width": 175,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "卸下装备",
+                        "fontSize": 16,
+                        "color": "#ffffff",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    }
+                ]
+            },
+            {
+                "id": "42770339857_0.6527414758234169",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "equipBox",
+                "x": 0,
+                "y": 0,
+                "width": 195,
+                "height": 54,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "1,1,1,1,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "108098275185_0.8787344663868801",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "装备背景",
+                        "x": 0,
+                        "y": 0,
+                        "width": 195,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/propBg.png",
+                        "grid9": "10,10,10,10,0",
+                        "flip": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42770531982_0.8596539318190921",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "icon",
+                        "x": 3,
+                        "y": 3,
+                        "width": 48,
+                        "height": 48,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/icon/equipment/Breastplate_4.png",
+                        "grid9": "3,3,3,3,0",
+                        "flip": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42772344873_0.9169556854334031",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemNum",
+                        "x": 102,
+                        "y": 0,
+                        "width": 78,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "99X",
+                        "fontSize": 14,
+                        "color": "#ffffff",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 2,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "52590829138_0.9474628336361526",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemName",
+                        "x": 53,
+                        "y": 0,
+                        "width": 99,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "装备名称",
+                        "fontSize": 15,
+                        "color": "#ffffff",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 0,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "108098314110_0.642958587914009",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "装备框",
+                        "x": 0,
+                        "y": 0,
+                        "width": 195,
+                        "height": 54,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/propFrame.png",
+                        "grid9": "10,10,10,10,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "instanceClassName": "",
+    "id": 1014,
+    "hasRootCommand": [],
+    "lock": true
+}

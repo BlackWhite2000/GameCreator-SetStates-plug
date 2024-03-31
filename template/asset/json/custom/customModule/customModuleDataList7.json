@@ -1,0 +1,41 @@
+{
+    "list": {
+        "1": [
+            null,
+            "剑士",
+            "魔法师",
+            "弓箭手",
+            "医师",
+            "其他"
+        ]
+    },
+    "type": {},
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "剑士",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "魔法师",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "弓箭手",
+                "children": []
+            },
+            {
+                "id": 4,
+                "name": "医师",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "职业"
+    },
+    "dataShowMode": 0
+}

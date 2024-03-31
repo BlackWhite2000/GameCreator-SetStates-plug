@@ -1,0 +1,133 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "109731762384_0.06804002137025522",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "加载背景",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "109731816994_0.9644035741797219",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "黑色遮罩",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 0.85,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/other/Black.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "109731504310_0.4273527146400855",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "加载LOGO",
+                "x": 1345,
+                "y": 774,
+                "width": 196,
+                "height": 71,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/loadingLogo.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "42285233300_0.010110529082863806",
+                "condition": [],
+                "type": "UISlider",
+                "name": "loadingComp",
+                "x": 1401,
+                "y": 838,
+                "width": 141,
+                "height": 5,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image1": "",
+                "bgGrid9": "0,0,0,0,0",
+                "image2": "",
+                "blockGrid9": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/loadBar_small.png",
+                "blockFillGrid9": "0,10,0,10,0",
+                "step": 0.01,
+                "min": 0,
+                "max": 100,
+                "value": 0,
+                "transverseMode": true,
+                "blockFillMode": 1,
+                "blockPosMode": 0,
+                "fillStrething": false,
+                "isBindingVarID": null,
+                "bindingVarID": null,
+                "onChangeFragEvent": null
+            }
+        ]
+    },
+    "id": 2001,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

@@ -1,0 +1,107 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/item/Potion_1.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "使用后指定单体人物回复70点生命值。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 10,
+            "copy": false
+        },
+        "isUse": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "isConsumables": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "callEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "se": {
+            "varType": 1,
+            "value": "asset/audio/se/item/Use_1.ogg,1,1",
+            "copy": false,
+            "volume": "1",
+            "pitch": "1"
+        },
+        "useType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "isSingleTarget": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "applyDeadBattler": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "releaseSkill": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "skill": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "releaseAnimation": {
+            "varType": 0,
+            "value": 63,
+            "copy": false
+        },
+        "recoveryHP": {
+            "varType": 0,
+            "value": 70,
+            "copy": false
+        },
+        "recoverySP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "addStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "removeStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "描述": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "未命名变量": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        }
+    },
+    "id": 2
+}

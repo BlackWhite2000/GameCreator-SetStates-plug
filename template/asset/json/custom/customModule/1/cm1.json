@@ -1,0 +1,107 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/item/Letter_1.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "这是一个道具描述，可在玩家设定中设置初始道具携带，或在剧情点设置获取，还可在数据库道具模块中编辑其描述信息和使用后执行的事件。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "isUse": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "isConsumables": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "se": {
+            "varType": 1,
+            "value": "asset/audio/se/item/Use_2.ogg,1,1",
+            "copy": false,
+            "volume": "1",
+            "pitch": "1"
+        },
+        "callEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "描述": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "未命名变量": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "useType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "isSingleTarget": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "applyDeadBattler": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "releaseAnimation": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "recoveryHP": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "recoverySP": {
+            "varType": 0,
+            "value": 50,
+            "copy": false
+        },
+        "addStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "removeStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "releaseSkill": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "skill": {
+            "varType": 0,
+            "value": 8,
+            "copy": false
+        }
+    },
+    "id": 1
+}

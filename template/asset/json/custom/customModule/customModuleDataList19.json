@@ -1,0 +1,70 @@
+{
+    "list": {
+        "1": [
+            null,
+            "武器",
+            "头部",
+            "胸部",
+            "手部",
+            "脚部"
+        ]
+    },
+    "type": {},
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "武器",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "头部",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "身体",
+                "children": []
+            },
+            {
+                "id": 4,
+                "name": "脚步",
+                "children": []
+            },
+            {
+                "id": 5,
+                "name": "饰品",
+                "children": [
+                    {
+                        "id": 7,
+                        "name": "hun1",
+                        "children": []
+                    },
+                    {
+                        "id": 6,
+                        "children": [],
+                        "isOpen": true,
+                        "name": "HEIAN"
+                    },
+                    {
+                        "id": 9,
+                        "children": [],
+                        "isOpen": true,
+                        "name": "时空"
+                    }
+                ],
+                "isOpen": true
+            },
+            {
+                "id": 8,
+                "name": "hun2",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "装备部位"
+    },
+    "dataShowMode": 0
+}

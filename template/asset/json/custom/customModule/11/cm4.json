@@ -1,0 +1,82 @@
+{
+    "attrs": {
+        "enemys": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1008,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1009,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "background": {
+            "varType": 1,
+            "value": "asset/image/picture/battleBackground/Dungeon.png",
+            "copy": false
+        },
+        "battlerBgType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleScene": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleBGM": {
+            "varType": 1,
+            "value": "asset/audio/bgm/Battle_5.ogg,1,1",
+            "copy": false,
+            "volume": "1",
+            "pitch": "1"
+        },
+        "battleStage1_newTurn": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage2_beforeAction": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage0_inBattle": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage3_outBattle": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "takeItems": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        }
+    },
+    "id": 4
+}

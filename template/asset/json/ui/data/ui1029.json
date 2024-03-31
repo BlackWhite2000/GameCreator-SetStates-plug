@@ -1,0 +1,177 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "109910837232_0.03446427563040433",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "战利品底",
+                "x": 3,
+                "y": 3,
+                "width": 48,
+                "height": 48,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/propBg.png",
+                "grid9": "15,15,15,15,0",
+                "pivotType": 0
+            },
+            {
+                "id": "55298481818_0.3540584221080836",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "icon",
+                "x": 3,
+                "y": 3,
+                "width": 48,
+                "height": 48,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/icon/item/Potion_1.png",
+                "grid9": "3,3,3,3,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "109910715213_0.355787771115903",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "战利品框",
+                "x": 0,
+                "y": 0,
+                "width": 54,
+                "height": 54,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/propFrame.png",
+                "grid9": "15,15,15,15,0",
+                "pivotType": 0
+            },
+            {
+                "id": "55298481819_0.004250028496342262",
+                "condition": [],
+                "type": "UIString",
+                "name": "itemNum",
+                "x": 15,
+                "y": 35,
+                "width": 35,
+                "height": 17,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "99",
+                "fontSize": 16,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 2,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": null,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            },
+            {
+                "id": "55298598401_0.926913427819275",
+                "condition": [],
+                "type": "UIString",
+                "name": "itemNumLabel",
+                "x": 21,
+                "y": 35,
+                "width": 12,
+                "height": 18,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "x",
+                "fontSize": 16,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 1029,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

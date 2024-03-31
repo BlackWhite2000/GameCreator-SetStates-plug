@@ -1,0 +1,1218 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "56543972604_0.7123698713078364",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "background",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": false,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/battleBackground/Outskirts.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "119051339269_0.5409265121973497",
+                "condition": [],
+                "type": "UIRoot",
+                "name": "battlerRoot",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "scrollShowType": 2,
+                "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                "hScrollBg": "asset/image/picture/control/hscroll_bg.png",
+                "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                "vScrollBg": "asset/image/picture/control/vscroll_bg.png",
+                "scrollWidth": 16,
+                "slowmotionType": 0,
+                "enabledWheel": true,
+                "hScrollValue": 0,
+                "vScrollValue": 0
+            },
+            {
+                "id": "107623785397_0.9983364309015899",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy0",
+                "x": 510,
+                "y": 575,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623785399_0.2987056582876382",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623852277_0.5695412964911315",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy1",
+                "x": 460,
+                "y": 640,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623852277_0.49272093211188417",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623868565_0.3700178088197692",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy2",
+                "x": 410,
+                "y": 700,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623868565_0.8647055207136547",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623881697_0.021094312807603766",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy3",
+                "x": 360,
+                "y": 760,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623881698_0.15096332077896846",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623901873_0.18398298375900324",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy4",
+                "x": 262,
+                "y": 575,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623901875_0.33078207369463297",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623913497_0.7295581998719347",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy5",
+                "x": 212,
+                "y": 640,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623913498_0.1920370029298606",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623971748_0.687160996800602",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy6",
+                "x": 162,
+                "y": 700,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623971750_0.017908955516564795",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623988895_0.8228816489512949",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "enemy7",
+                "x": 112,
+                "y": 760,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11030,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 1,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623988895_0.281586529059916",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": 120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_enemy.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623014836_0.49770602315993995",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor0",
+                "x": 1194,
+                "y": 576,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11001,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "56693071613_0.9289239516034402",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623252381_0.8897457937520907",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor1",
+                "x": 1244,
+                "y": 641,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11002,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623252383_0.8340325665163835",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623254447_0.3694624921167007",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor2",
+                "x": 1294,
+                "y": 701,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11003,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623254448_0.9767164950290534",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "107623256637_0.3226353790858225",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor3",
+                "x": 1344,
+                "y": 761,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 11004,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "107623256638_0.8499977005169588",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "119047615558_0.3736911289829561",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor4",
+                "x": 1778,
+                "y": 382,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": false,
+                "avatarID": 11001,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "119047615559_0.25341366788525144",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "119047654539_0.9697655754900567",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor5",
+                "x": 1783,
+                "y": 500,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": false,
+                "avatarID": 11001,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "119047654540_0.36942674037555623",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "119047668573_0.34730406949310444",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor6",
+                "x": 1785,
+                "y": 602,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": false,
+                "avatarID": 11001,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "119047668574_0.3490688346634938",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "119047678874_0.7545316962193032",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "playerActor7",
+                "x": 1794,
+                "y": 711,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": false,
+                "avatarID": 11001,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 20,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0,
+                "children": [
+                    {
+                        "id": "119047678877_0.6339613733128477",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "moveToHelper",
+                        "x": -120,
+                        "y": 1,
+                        "width": 115,
+                        "height": 64,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/sign_ourSide.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "56545369175_0.2528935564896635",
+                "condition": [],
+                "type": "UIList",
+                "name": "actorInfoList",
+                "x": 0,
+                "y": 0,
+                "width": 1487,
+                "height": 210,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "itemModelGUI": 1025,
+                "previewSize": 8,
+                "selectEnable": true,
+                "repeatX": 8,
+                "itemWidth": 295,
+                "itemHeight": 200,
+                "spaceX": 0,
+                "spaceY": 0,
+                "scrollShowType": 0,
+                "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                "hScrollBg": "asset/image/picture/control/hscroll_bg.png",
+                "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                "vScrollBg": "asset/image/picture/control/vscroll_bg.png",
+                "scrollWidth": 4,
+                "selectImageURL": "",
+                "selectImageGrid9": "0,0,0,0,0",
+                "selectedImageAlpha": 0.5,
+                "selectedImageOnTop": true,
+                "overImageURL": "",
+                "overImageGrid9": "0,0,0,0,0",
+                "overImageAlpha": 0.5,
+                "overImageOnTop": true,
+                "overSelectMode": true,
+                "slowmotionType": 0
+            },
+            {
+                "id": "59297841828_0.9187576498427761",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "提示文本背景",
+                "x": 250,
+                "y": 828,
+                "width": 1100,
+                "height": 72,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": false,
+                "image": "asset/image/picture/control/tipsBottom.png",
+                "grid9": "0,50,0,50,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "56780468690_0.6905353792201991",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "actionText",
+                        "x": 45,
+                        "y": 25,
+                        "width": 1010,
+                        "height": 24,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "",
+                        "fontSize": 20,
+                        "color": "#ffffff",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 0,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": true,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    }
+                ]
+            }
+        ]
+    },
+    "instanceClassName": "GUI_Battle",
+    "id": 21,
+    "hasRootCommand": [],
+    "lock": true
+}

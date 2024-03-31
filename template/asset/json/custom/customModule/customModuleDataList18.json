@@ -1,0 +1,41 @@
+{
+    "list": {
+        "1": [
+            null,
+            "剑",
+            "杖",
+            "弓",
+            "书",
+            "头盔",
+            "胸甲",
+            "护手",
+            "靴子",
+            "饰品",
+            "盾牌"
+        ]
+    },
+    "type": {},
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "剑",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "胸甲",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "手套",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "装备类别"
+    },
+    "dataShowMode": 0
+}

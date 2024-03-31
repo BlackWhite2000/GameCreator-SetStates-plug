@@ -1,0 +1,133 @@
+{
+    "attrs": {
+        "lvUpAutoGetSkills": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 2,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 10,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 4,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 11,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 6,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 12,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 8,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 13,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 10,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 14,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "icon": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "levelUpEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "equipSetting": {
+            "varType": 6,
+            "value": [
+                2,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "copy": false
+        },
+        "MaxHPGrow": {
+            "varType": 1,
+            "value": "[[0,0,8.003766478342811,99,1000,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MaxSPGrow": {
+            "varType": 1,
+            "value": "[[0,0,20.056497175141274,99,1000,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "POWGrow": {
+            "varType": 1,
+            "value": "[[0,0,5.273069679849328,99,100,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "ENDGrow": {
+            "varType": 1,
+            "value": "[[0,0,5.3672316384181045,99,100,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MAGGrow": {
+            "varType": 1,
+            "value": "[[0,0,10.263653483992442,99,100,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "AGIGrow": {
+            "varType": 1,
+            "value": "[[0,0,4.519774011299404,99,100,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "needEXPGrow": {
+            "varType": 1,
+            "value": "[[0,0,1.6007532956685537,99,5000,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "成长设定": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        }
+    },
+    "id": 2
+}

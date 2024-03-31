@@ -1,0 +1,152 @@
+{
+    "attrs": {
+        "enemys": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1001,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1001,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1001,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1001,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1002,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1002,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1002,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1002,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "background": {
+            "varType": 1,
+            "value": "asset/image/picture/battleBackground/Outskirts.png",
+            "copy": false
+        },
+        "battlerBgType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleScene": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleBGM": {
+            "varType": 1,
+            "value": "asset/audio/bgm/Battle_1.ogg",
+            "copy": false
+        },
+        "battleStage1_newTurn": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage2_beforeAction": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage0_inBattle": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage3_outBattle": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "takeItems": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        }
+    },
+    "id": 1
+}

@@ -1,0 +1,345 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "42254365299_0.44715336593450794",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "标题背景",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/titles/Title_SwordOfDream.png",
+                "grid9": "3,3,3,3,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "109645658459_0.4754220675958225",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "衬底",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/titleBg.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "109645380917_0.007359502850233568",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "GameLOGO",
+                "x": 87,
+                "y": 37,
+                "width": 549,
+                "height": 373,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/gameLogo.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "111456127933_0.48493092435953233",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "游戏标题",
+                        "x": 58,
+                        "y": 103,
+                        "width": 424,
+                        "height": 184,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/gameLogo_GameTitle.png",
+                        "grid9": "0,0,0,0,0",
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "111456138558_0.17753077210217127",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "游戏副标题",
+                        "x": 242,
+                        "y": 284,
+                        "width": 249,
+                        "height": 40,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/gameLogo_GameSubtitle.png",
+                        "grid9": "0,0,0,0,0",
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "31870501239_0.5446454449699711",
+                "condition": [],
+                "type": "UIButton",
+                "name": "开始游戏按钮",
+                "x": 126,
+                "y": 480,
+                "width": 421,
+                "height": 95,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "开始游戏",
+                "image1": "asset/image/picture/control/titleBtn.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/titleBtn.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/titleBtn.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 26,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "42588246189_0.3946571868821098",
+                "condition": [],
+                "type": "UIButton",
+                "name": "读取存档按钮",
+                "x": 126,
+                "y": 565,
+                "width": 421,
+                "height": 95,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "读取存档",
+                "image1": "asset/image/picture/control/titleBtn.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/titleBtn.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/titleBtn.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 26,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "89571242174_0.5683264545155411",
+                "condition": [],
+                "type": "UIButton",
+                "name": "游戏设置按钮",
+                "x": 126,
+                "y": 650,
+                "width": 421,
+                "height": 95,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "游戏设置",
+                "image1": "asset/image/picture/control/titleBtn.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/titleBtn.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/titleBtn.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 26,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "42588260235_0.0513781451358899",
+                "condition": [],
+                "type": "UIButton",
+                "name": "退出游戏按钮",
+                "x": 126,
+                "y": 735,
+                "width": 421,
+                "height": 95,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "退出游戏",
+                "image1": "asset/image/picture/control/titleBtn.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/titleBtn.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/titleBtn.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 26,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 1,
+    "instanceClassName": "",
+    "hasRootCommand": [
+        null,
+        null,
+        null,
+        true
+    ],
+    "lock": true
+}

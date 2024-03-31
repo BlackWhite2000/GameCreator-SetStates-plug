@@ -1,0 +1,97 @@
+{
+    "attrs": {
+        "enemys": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1013,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "actor": {
+                        "varType": 0,
+                        "value": 1014,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "background": {
+            "varType": 1,
+            "value": "asset/image/picture/battleBackground/Castle_corridor.png",
+            "copy": false
+        },
+        "battlerBgType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleScene": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "battleBGM": {
+            "varType": 1,
+            "value": "asset/audio/bgm/Battle_5.ogg,1,1",
+            "copy": false,
+            "volume": "1",
+            "pitch": "1"
+        },
+        "battleStage1_newTurn": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage2_beforeAction": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "battleStage0_inBattle": {
+            "varType": 1,
+            "value": "\u0005112855098802_0.025187473055738208\u0005[[17,30,0,false,0,{\"___cmdID\":\"111367755221_0.2026483117466451\"}],[11,3,1012,\"死灵法师\",3,-3,\"<span style='color:#FfFffF'>竟然让你们来到了这里，不过旅途结束了各位，一切都将在此终结...</span>\",null,1,0,\"\",{\"id\":3,\"atts\":[],\"time\":60,\"transitionMode\":null,\"nonTweenType\":0,\"mode\":0},{\"___cmdID\":\"111367657233_0.2704852396055022\"}],[100009,{\"56802066381_0.9799442495322248\":1,\"112827443312_0.7116398782841942\":1,\"112827443312_0.8835003219258355\":1,\"112827443312_0.09903982903337938\":0,\"112827951224_0.19172165556151333\":1,\"112827951224_0.8948006587215942\":1,\"112827951224_0.03165636776208047\":0,\"55567336559_0.4017641734004589\":1,\"112829668090_0.11962403701676494\":true,\"112828242225_0.1482327920273665\":1019,\"112828242225_0.7969155171495363\":1,\"112828242225_0.827073362792951\":0,\"112828518343_0.6790311254085881\":1,\"112828518343_0.6538334357437838\":1,\"112828518343_0.4668537961386261\":0,\"112832435030_0.4604100151357584\":1,\"112832662084_0.34664604880421845\":0,\"112832662084_0.01862215725208749\":1,\"112832662084_0.5149143517465873\":0},\"112854991502_0.8485728309200646\"],[-1,{\"___cmdID\":\"111367654048_0.3745838004333013\"}]]",
+            "copy": false
+        },
+        "battleStage3_outBattle": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "takeItems": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "randEnemy": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "takeItemsSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        }
+    },
+    "id": 6
+}

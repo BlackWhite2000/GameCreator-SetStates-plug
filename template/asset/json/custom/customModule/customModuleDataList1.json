@@ -1,0 +1,52 @@
+{
+    "list": {
+        "1": [
+            null,
+            "指引信",
+            "生命回复药剂",
+            "魔法回复药剂",
+            "复活草",
+            "虚弱药水",
+            "宝箱钥匙",
+            "万枚货币",
+            "GC野史",
+            ""
+        ]
+    },
+    "type": {
+        "1": "物品"
+    },
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "指引信",
+                "children": []
+            },
+            {
+                "id": 2,
+                "name": "生命回复药剂",
+                "children": []
+            },
+            {
+                "id": 3,
+                "name": "魔法回复药剂",
+                "children": []
+            },
+            {
+                "id": 4,
+                "name": "复活草",
+                "children": []
+            },
+            {
+                "id": 5,
+                "name": "投掷型毒药",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "道具"
+    },
+    "dataShowMode": 0
+}

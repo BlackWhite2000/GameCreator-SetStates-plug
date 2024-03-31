@@ -1,0 +1,118 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "109824963422_0.32128352358731416",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "头像底衬",
+                "x": 0,
+                "y": 0,
+                "width": 150,
+                "height": 150,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/itemBg.png",
+                "grid9": "25,25,25,25,0",
+                "pivotType": 0
+            },
+            {
+                "id": "107267764120_0.4736321254099054",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "face",
+                "x": 7,
+                "y": 7,
+                "width": 136,
+                "height": 136,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/face/swordman/Swordman_normal.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "52759337262_0.5836118928440586",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "ai",
+                "x": 80,
+                "y": 0,
+                "width": 70,
+                "height": 30,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/auto.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "58419647230_0.36345577842807186",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "deadSign",
+                "x": 4,
+                "y": 114,
+                "width": 51,
+                "height": 32,
+                "opacity": 0.82,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/dead.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            }
+        ]
+    },
+    "id": 1011,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

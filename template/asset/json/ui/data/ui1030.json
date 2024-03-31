@@ -1,0 +1,64 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "55298718320_0.03564239170076067",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "icon",
+                "x": 3,
+                "y": 3,
+                "width": 59,
+                "height": 59,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/icon/skill/Communal_baneblade.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "109914305570_0.9588013793024823",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "技能框",
+                "x": 0,
+                "y": 0,
+                "width": 64,
+                "height": 64,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/skillFrame.png",
+                "grid9": "15,15,15,15,0",
+                "pivotType": 0
+            }
+        ]
+    },
+    "id": 1030,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

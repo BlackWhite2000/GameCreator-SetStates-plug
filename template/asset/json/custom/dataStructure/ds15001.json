@@ -1,0 +1,13 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 15001,
+    "blockList": [
+        {
+            "name": "[#GAME_UNNAMED_BLOCK]",
+            "blockAttrs": [],
+            "blockCondition": [],
+            "blockHeight": 300,
+            "autoOrder": true
+        }
+    ]
+}
