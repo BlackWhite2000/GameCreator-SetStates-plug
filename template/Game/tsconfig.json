@@ -47,6 +47,7 @@
         "game/project/ProjectGame.ts",
         "game/GameGate.ts",
         "game/GCMain.ts",
+        "SetStates/SetStates.ts",
         "system/CustomCommandParams.ts",
         "system/CustomConditionParams.ts",
         "system/CustomGameNumberParams.ts",

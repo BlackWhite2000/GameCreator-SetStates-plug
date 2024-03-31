@@ -261,7 +261,9 @@
                         "autoTitleWidth": true,
                         "titleWidth": 0,
                         "eyeShow": true,
-                        "lockBlock": false
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
                     },
                     "attrConditions": [],
                     "y": 10,
@@ -275,7 +277,7 @@
                         "varName": "statusID",
                         "varType": 4,
                         "compData": {
-                            "compType": 1002,
+                            "compType": 1004,
                             "compParam": {}
                         },
                         "defaultValue": "1",
@@ -479,17 +481,26 @@
                     "x": 605,
                     "width": 81,
                     "height": 32
-                },
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 55,
+            "autoOrder": true,
+            "hideBlockTitle": true
+        },
+        {
+            "name": "层数",
+            "blockAttrs": [
                 {
                     "attr": {
-                        "id": "154333507805_0.4281785847513868",
+                        "id": "154335616056_0.12988300798298935",
                         "varName": "count",
                         "varType": 0,
                         "compData": {
                             "compType": 0,
                             "compParam": {}
                         },
-                        "defaultValue": "",
+                        "defaultValue": "1",
                         "hideMode": false,
                         "useCommand": false,
                         "onlyPointTo": false,
@@ -515,7 +526,7 @@
                     },
                     "attrConditions": [
                         {
-                            "attrID": "154333582958_0.5858827549809342",
+                            "attrID": "154335616057_0.4023759701274632",
                             "value": 0,
                             "isExpression": false,
                             "jsCode": null,
@@ -523,14 +534,14 @@
                             "codeName": null
                         }
                     ],
-                    "y": 50,
+                    "y": 15,
                     "x": 15,
                     "width": 200,
                     "height": 32
                 },
                 {
                     "attr": {
-                        "id": "154333582958_0.5858827549809342",
+                        "id": "154335616057_0.4023759701274632",
                         "varName": "countType",
                         "varType": 0,
                         "compData": {
@@ -564,24 +575,15 @@
                         "enumEnable_get": true,
                         "enumEnable_set": true
                     },
-                    "attrConditions": [
-                        {
-                            "attrID": null,
-                            "value": null,
-                            "isExpression": true,
-                            "jsCode": "attrs.symbol != 2;\n",
-                            "tsCode": "// 根据属性名称值编写条件表达式（目前支持选择框和复选框），如： (attrs.xxx>5 && attrs.yyy<=10) || attrs.zzz==6;\r\nattrs.symbol!=2",
-                            "codeName": "非移除全部时"
-                        }
-                    ],
-                    "y": 51,
+                    "attrConditions": [],
+                    "y": 16,
                     "x": 221,
                     "width": 107,
                     "height": 32
                 },
                 {
                     "attr": {
-                        "id": "154333595233_0.012167071348863523",
+                        "id": "154335616057_0.6914755065348928",
                         "varName": "countVar",
                         "varType": 0,
                         "compData": {
@@ -614,7 +616,7 @@
                     },
                     "attrConditions": [
                         {
-                            "attrID": "154333582958_0.5858827549809342",
+                            "attrID": "154335616057_0.4023759701274632",
                             "value": 1,
                             "isExpression": false,
                             "jsCode": null,
@@ -622,19 +624,29 @@
                             "codeName": null
                         }
                     ],
-                    "y": 50,
+                    "y": 15,
                     "x": 15,
                     "width": 200,
                     "height": 32
                 }
             ],
-            "blockCondition": [],
-            "blockHeight": 95,
+            "blockCondition": [
+                {
+                    "attrID": null,
+                    "value": null,
+                    "isExpression": true,
+                    "jsCode": "attrs.symbol !== 2;\n",
+                    "tsCode": "// 根据属性名称值编写条件表达式（目前支持选择框和复选框），如： (attrs.xxx>5 && attrs.yyy<=10) || attrs.zzz==6;\r\nattrs.symbol !== 2",
+                    "codeName": "非移除全部时"
+                }
+            ],
+            "blockHeight": 55,
             "autoOrder": true,
             "hideBlockTitle": true
         }
     ],
     "isCustomPhraseDesc": true,
-    "customPhraseDescTS": "// 根据属性名称值编写自定义短语描述，如：\"我的短语是\"+attrs.xxx\n// 使用下拉框组件的变量attrs.xxx有对应的attrs.xxxItems的属性以便获得标签名集合\n// 获取自定义模块的数据名称的函数：getModuleDataName(moduleID:number,dataID:number):string;\n// 获取各种列表内数据名称的函数：getTypeDataListName(typeID: number, dataID: number):string;\n// -- typeID ：0-全局变量 1-全局开关 2-全局字符串 3-玩家变量 4-玩家开关 5-玩家字符串\n//           ：6-场景列表 7-场景对象模型列表 8-图块列表 9-行走图列表 10-行走图动作列表 11-立绘列表 12-立绘表情列表\n//           ：13-公共事件 14-对话框列表 15-动画列表 16-动画信号列表 17-界面列表 18-数据结构列表 19-自定义模块列表\n//           ：20-自定义命令列表 21-自定义行为列表 22-自动元件列表 23-行走图部件列表 24-立绘部件列表 25-材质列表\nvar str = ``;\nstr += \"\";\nstr += attrs.inPartyTypeItems[attrs.inPartyType];\nif (attrs.inPartyType <= 1) {\n    if (attrs.battlerIndexUseVar) {\n        str += `[${attrs.battlerIndexVarID}-${getTypeDataListName(3, attrs.battlerIndexVarID)}]`;\n    }\n    else {\n        str += `[${attrs.battlerIndex}]`;\n    }\n    str += \"的战斗者\"\n}\nstr += \" => \"\nstr += attrs.symbolItems[attrs.symbol];\nif (attrs.symbol <= 1) {\n    str += attrs.statusUseVar ? `「${attrs.statusIDVarID}-${getTypeDataListName(3, attrs.statusIDVarID)}」` : `「${attrs.statusID}-${getModuleDataName(10, attrs.statusID)}」`;\n}\nconst count = attrs.countType == 0 ? `${attrs.count}` : `[${attrs.countVar}-${getTypeDataListName(3, attrs.countVar)}]`\nstr += `层数 ${count}`\nstr;",
-    "customPhraseDescJS": "var str = \"\";\nstr += \"\";\nstr += attrs.inPartyTypeItems[attrs.inPartyType];\nif (attrs.inPartyType <= 1) {\n    if (attrs.battlerIndexUseVar) {\n        str += \"[\" + attrs.battlerIndexVarID + \"-\" + getTypeDataListName(3, attrs.battlerIndexVarID) + \"]\";\n    }\n    else {\n        str += \"[\" + attrs.battlerIndex + \"]\";\n    }\n    str += \"的战斗者\";\n}\nstr += \" => \";\nstr += attrs.symbolItems[attrs.symbol];\nif (attrs.symbol <= 1) {\n    str += attrs.statusUseVar ? \"\\u300C\" + attrs.statusIDVarID + \"-\" + getTypeDataListName(3, attrs.statusIDVarID) + \"\\u300D\" : \"\\u300C\" + attrs.statusID + \"-\" + getModuleDataName(10, attrs.statusID) + \"\\u300D\";\n}\nvar count = attrs.countType == 0 ? \"\" + attrs.count : \"[\" + attrs.countVar + \"-\" + getTypeDataListName(3, attrs.countVar) + \"]\";\nstr += \"\\u5C42\\u6570 \" + count;\nstr;\n"
+    "customPhraseDescTS": "// 根据属性名称值编写自定义短语描述，如：\"我的短语是\"+attrs.xxx\n// 使用下拉框组件的变量attrs.xxx有对应的attrs.xxxItems的属性以便获得标签名集合\n// 获取自定义模块的数据名称的函数：getModuleDataName(moduleID:number,dataID:number):string;\n// 获取各种列表内数据名称的函数：getTypeDataListName(typeID: number, dataID: number):string;\n// -- typeID ：0-全局变量 1-全局开关 2-全局字符串 3-玩家变量 4-玩家开关 5-玩家字符串\n//           ：6-场景列表 7-场景对象模型列表 8-图块列表 9-行走图列表 10-行走图动作列表 11-立绘列表 12-立绘表情列表\n//           ：13-公共事件 14-对话框列表 15-动画列表 16-动画信号列表 17-界面列表 18-数据结构列表 19-自定义模块列表\n//           ：20-自定义命令列表 21-自定义行为列表 22-自动元件列表 23-行走图部件列表 24-立绘部件列表 25-材质列表\nvar str = ``;\nstr += \"\";\nstr += attrs.inPartyTypeItems[attrs.inPartyType];\nif (attrs.inPartyType <= 1) {\n    if (attrs.battlerIndexUseVar) {\n        str += `[${attrs.battlerIndexVarID}-${getTypeDataListName(3, attrs.battlerIndexVarID)}]`;\n    }\n    else {\n        str += `[${attrs.battlerIndex}]`;\n    }\n    str += \"的战斗者\"\n}\nstr += \" => \"\nstr += attrs.symbolItems[attrs.symbol];\nif (attrs.symbol <= 1) {\n    str += attrs.statusUseVar ? `「${attrs.statusIDVarID}-${getTypeDataListName(3, attrs.statusIDVarID)}」` : `「${attrs.statusID}-${getModuleDataName(10, attrs.statusID)}」`;\n    const count = attrs.countType == 0 ? `${attrs.count}` : `[${attrs.countVar}-${getTypeDataListName(3, attrs.countVar)}]`\n    str += `层数 ${count}`\n}\nstr;",
+    "customPhraseDescJS": "var str = \"\";\nstr += \"\";\nstr += attrs.inPartyTypeItems[attrs.inPartyType];\nif (attrs.inPartyType <= 1) {\n    if (attrs.battlerIndexUseVar) {\n        str += \"[\" + attrs.battlerIndexVarID + \"-\" + getTypeDataListName(3, attrs.battlerIndexVarID) + \"]\";\n    }\n    else {\n        str += \"[\" + attrs.battlerIndex + \"]\";\n    }\n    str += \"的战斗者\";\n}\nstr += \" => \";\nstr += attrs.symbolItems[attrs.symbol];\nif (attrs.symbol <= 1) {\n    str += attrs.statusUseVar ? \"\\u300C\" + attrs.statusIDVarID + \"-\" + getTypeDataListName(3, attrs.statusIDVarID) + \"\\u300D\" : \"\\u300C\" + attrs.statusID + \"-\" + getModuleDataName(10, attrs.statusID) + \"\\u300D\";\n    var count = attrs.countType == 0 ? \"\" + attrs.count : \"[\" + attrs.countVar + \"-\" + getTypeDataListName(3, attrs.countVar) + \"]\";\n    str += \"\\u5C42\\u6570 \" + count;\n}\nstr;\n",
+    "name": "增减多层状态"
 }

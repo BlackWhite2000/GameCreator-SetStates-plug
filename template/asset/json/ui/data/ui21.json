@@ -11,6 +11,7 @@
                 "width": 1600,
                 "height": 900,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -27,6 +28,7 @@
                 "image": "asset/image/picture/battleBackground/Outskirts.png",
                 "grid9": "0,0,0,0,0",
                 "flip": null,
+                "isTile": false,
                 "pivotType": 0
             },
             {
@@ -39,6 +41,7 @@
                 "width": 1600,
                 "height": 900,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -52,6 +55,7 @@
                 "showOnEditor": true,
                 "hasCommand": [],
                 "isOpen": true,
+                "enabledLimitView": false,
                 "scrollShowType": 2,
                 "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
                 "hScrollBg": "asset/image/picture/control/hscroll_bg.png",
@@ -73,6 +77,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -107,6 +112,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -123,6 +129,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -137,6 +144,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -171,6 +179,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -187,6 +196,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -201,6 +211,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -235,6 +246,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -251,6 +263,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -265,6 +278,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -299,6 +313,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -315,6 +330,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -329,6 +345,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -363,6 +380,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -379,6 +397,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -393,6 +412,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -427,6 +447,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -443,6 +464,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -457,6 +479,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -491,6 +514,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -507,6 +531,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -521,6 +546,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -555,6 +581,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -571,6 +598,7 @@
                         "image": "asset/image/picture/control/sign_enemy.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -585,6 +613,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -619,6 +648,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -635,6 +665,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -649,6 +680,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -683,6 +715,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -699,6 +732,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -713,6 +747,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -747,6 +782,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -763,6 +799,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -777,6 +814,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -811,6 +849,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -827,6 +866,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -841,6 +881,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -875,6 +916,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -891,6 +933,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -905,6 +948,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -939,6 +983,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -955,6 +1000,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -969,6 +1015,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -1003,6 +1050,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -1019,6 +1067,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -1033,6 +1082,7 @@
                 "width": 192,
                 "height": 192,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -1067,6 +1117,7 @@
                         "width": 115,
                         "height": 64,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": true,
@@ -1083,6 +1134,7 @@
                         "image": "asset/image/picture/control/sign_ourSide.png",
                         "grid9": "0,0,0,0,0",
                         "flip": null,
+                        "isTile": false,
                         "pivotType": 0
                     }
                 ]
@@ -1097,6 +1149,7 @@
                 "width": 1487,
                 "height": 210,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -1145,6 +1198,7 @@
                 "width": 1100,
                 "height": 72,
                 "opacity": 1,
+                "blend": 0,
                 "rotation": 0,
                 "show": true,
                 "mouseEventEnabledData": true,
@@ -1161,6 +1215,7 @@
                 "image": "asset/image/picture/control/tipsBottom.png",
                 "grid9": "0,50,0,50,0",
                 "flip": null,
+                "isTile": false,
                 "pivotType": 0,
                 "children": [
                     {
@@ -1173,6 +1228,7 @@
                         "width": 1010,
                         "height": 24,
                         "opacity": 1,
+                        "blend": 0,
                         "rotation": 0,
                         "show": true,
                         "mouseEventEnabledData": false,
@@ -1208,6 +1264,153 @@
                         "onChangeFragEvent": null
                     }
                 ]
+            },
+            {
+                "id": "154334514147_0.6572028772151732",
+                "condition": [],
+                "type": "UIButton",
+                "name": "按钮",
+                "x": 701,
+                "y": 341,
+                "width": 150,
+                "height": 58,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "Button",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "25,25,25,25,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "25,25,25,25,0",
+                "image3": "asset/image/picture/control/btn_over.png",
+                "grid9img3": "25,25,25,25,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "154336147070_0.7447466440898936",
+                "condition": [],
+                "type": "UIButton",
+                "name": "按钮",
+                "x": 540,
+                "y": 418,
+                "width": 150,
+                "height": 58,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "2",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "25,25,25,25,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "25,25,25,25,0",
+                "image3": "asset/image/picture/control/btn_over.png",
+                "grid9img3": "25,25,25,25,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "154336213777_0.12415709395607633",
+                "condition": [],
+                "type": "UIButton",
+                "name": "按钮",
+                "x": 689,
+                "y": 484,
+                "width": 150,
+                "height": 58,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "Button",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "25,25,25,25,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "25,25,25,25,0",
+                "image3": "asset/image/picture/control/btn_over.png",
+                "grid9img3": "25,25,25,25,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
             }
         ]
     },

@@ -1,4 +1,4 @@
 {
-    "plugDatas": "[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[{\"type\":16,\"data\":9,\"isAutoRelation\":false,\"selected\":true,\"randID\":1164,\"froms\":[]}],[{\"type\":17,\"data\":[{\"filePath\":\"Game/game/TestGameNumber.ts\",\"isServer\":false}],\"isAutoRelation\":false,\"selected\":true,\"randID\":1165,\"froms\":[]}]]",
-    "cloudPlugDataID": "150"
+    "plugDatas": "[null,null,null,null,null,null,null,null,null,[{\"type\":9,\"data\":10,\"isAutoRelation\":true,\"selected\":false,\"randID\":5541070,\"froms\":[null]},{\"type\":9,\"data\":17,\"isAutoRelation\":true,\"selected\":false,\"randID\":5541071,\"froms\":[null,null]}],[{\"type\":10,\"data\":1009,\"isAutoRelation\":true,\"selected\":false,\"randID\":5541072,\"froms\":[null]}],null,[{\"type\":12,\"data\":15001,\"isAutoRelation\":false,\"selected\":true,\"randID\":5541073,\"froms\":[]}],null,null,null,null,[{\"type\":17,\"data\":[{\"filePath\":\"Game/SetStates/SetStates.ts\",\"isServer\":false}],\"isAutoRelation\":false,\"selected\":true,\"randID\":5541074,\"froms\":[]}]]",
+    "cloudPlugDataID": "988"
 }

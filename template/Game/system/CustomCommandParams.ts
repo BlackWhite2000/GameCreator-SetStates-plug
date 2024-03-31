@@ -1396,7 +1396,7 @@ class CustomCommandParams_15001 {
     statusIDVarID: number; // = 1; 状态
     statusUseVar: number; // = 0; 使用变量
     force: boolean; // = true; 强制附加
-    count: number; // = 0; 层数
+    count: number; // = 1; 层数
     countType: number; // = 0; 使用变量
     countVar: number; // = 0; 层数
 }

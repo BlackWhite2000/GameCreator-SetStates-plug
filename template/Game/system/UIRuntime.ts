@@ -773,6 +773,8 @@ class GUI_21 extends GUI_BASE {
    actorInfoList:UIList; // Item=1025
    提示文本背景:UIBitmap;
    actionText:UIString;
+   按钮:UIButton;
+
    constructor(){
       super(21);
    }
@@ -799,6 +801,7 @@ class ListItem_21 extends UIListItemData {
    actorInfoList:UIListItemData[];
    提示文本背景:string;
    actionText:string;
+
 }
 
 /**

@@ -26,78 +26,6 @@
                         "value": 1001,
                         "copy": false
                     }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1001,
-                        "copy": false
-                    }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1001,
-                        "copy": false
-                    }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1002,
-                        "copy": false
-                    }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1002,
-                        "copy": false
-                    }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1002,
-                        "copy": false
-                    }
-                },
-                {
-                    "lv": {
-                        "varType": 0,
-                        "value": 1,
-                        "copy": false
-                    },
-                    "actor": {
-                        "varType": 0,
-                        "value": 1002,
-                        "copy": false
-                    }
                 }
             ],
             "copy": false
@@ -143,6 +71,46 @@
             "copy": false
         },
         "takeItems": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "randEnemy": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "takeItemsSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "dropEnabled": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "dropGold": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "dropExp": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "dropEquips": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "dropItems": {
             "varType": 9,
             "value": [],
             "copy": false

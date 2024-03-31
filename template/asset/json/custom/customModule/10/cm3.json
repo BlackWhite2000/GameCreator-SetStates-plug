@@ -42,7 +42,7 @@
         },
         "maxlayer": {
             "varType": 0,
-            "value": 1,
+            "value": 100,
             "copy": false
         },
         "removePer": {
@@ -236,6 +236,26 @@
             "copy": false
         },
         "pLabel": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "specialAbility": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "addEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "removeEvent": {
             "varType": 1,
             "value": "",
             "copy": false
