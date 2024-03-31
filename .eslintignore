@@ -1,0 +1,11 @@
+docs
+template
+public
+build
+lib
+scripts
+dist
+node_modules
+.output
+.nuxt
+*tsconfig.json
