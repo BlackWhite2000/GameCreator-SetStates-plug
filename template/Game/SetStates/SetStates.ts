@@ -6,7 +6,7 @@ module OpenAPI {
     /**
      * 当前版本号
      */
-    static Version = 1.1
+    static Version = 1.2
     /**
      * 是否安装
      */
@@ -15,6 +15,8 @@ module OpenAPI {
 }
 module CommandExecute {
   export function customCommand_15001(commandPage: CommandPage, cmd: Command, trigger: CommandTrigger, triggerPlayer: ClientPlayer, playerInput: any[], p: CustomCommandParams_15001): void {
+    if (p.count <= 0)
+      return
     if (!GameBattleHelper.isInBattle)
       return
     const battlerIndex = MathUtils.int(p.battlerIndexUseVar ? Game.player.variable.getVariable(p.battlerIndexVarID) : p.battlerIndex)
@@ -131,9 +133,13 @@ module CommandExecute {
     const thisStatusIdx: number = ArrayUtils.matchAttributes(targetBattlerActor.status, { id: statusID }, true, '==', true)[0]
     if (thisStatusIdx != null) {
       const removedStatus = targetBattlerActor.status[thisStatusIdx]
-      removedStatus.currentLayer -= count
+      const currentLayer = removedStatus.currentLayer - count
+      if (currentLayer <= 0)
+        return GameBattleData.removeStatus(targetBattler, statusID)
+
+      removedStatus.currentLayer = currentLayer
       // 解除状态+动画
-      if (removedStatus.currentLayer <= 0 && systemStatus.animation) {
+      if (systemStatus.animation) {
         targetBattlerActor.status.splice(thisStatusIdx, 1)
         // 如果该动画在其他状态下不存在则直接清除
         if (ArrayUtils.matchAttributes(targetBattlerActor.status, { animation: systemStatus.animation }, true, '==', true).length === 0)
