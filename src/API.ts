@@ -6,7 +6,7 @@ module OpenAPI {
     /**
      * 当前版本号
      */
-    static Version = 1.2
+    static Version = 1.5
     /**
      * 是否安装
      */

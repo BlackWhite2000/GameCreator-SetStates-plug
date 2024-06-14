@@ -6,7 +6,7 @@ module OpenAPI {
     /**
      * 当前版本号
      */
-    static Version = 1.2
+    static Version = 1.5
     /**
      * 是否安装
      */
@@ -28,7 +28,7 @@ module CommandExecute {
     const statusID = MathUtils.int(p.statusUseVar ? Game.player.variable.getVariable(p.statusIDVarID) : p.statusID)
     for (let i = 0; i < battlers.length; i++) {
       const battler = battlers[i]
-      if (battler.isDead)
+      if (!battler || battler.isDead)
         continue
       const actor = battler.actor
       const count = p.countType === 0 ? p.count : Game.player.variable.getVariable(p.countVar)
@@ -103,6 +103,8 @@ module CommandExecute {
       thisStatus = GameData.newModuleData(10, statusID)
       thisStatus.fromBattlerID = fromBattler.inBattleID
       thisStatus.currentLayer = count
+      if (thisStatus.currentLayer > thisStatus.maxlayer)
+        thisStatus.currentLayer = thisStatus.maxlayer
       targetBattlerActor.status.push(thisStatus)
     }
     // -- 自动动画
@@ -138,13 +140,13 @@ module CommandExecute {
         return GameBattleData.removeStatus(targetBattler, statusID)
 
       removedStatus.currentLayer = currentLayer
-      // 解除状态+动画
-      if (systemStatus.animation) {
-        targetBattlerActor.status.splice(thisStatusIdx, 1)
-        // 如果该动画在其他状态下不存在则直接清除
-        if (ArrayUtils.matchAttributes(targetBattlerActor.status, { animation: systemStatus.animation }, true, '==', true).length === 0)
-          targetBattler.stopAnimation(systemStatus.animation)
-      }
+      // // 解除状态+动画
+      // if (systemStatus.animation) {
+      //   targetBattlerActor.status.splice(thisStatusIdx, 1)
+      //   // 如果该动画在其他状态下不存在则直接清除
+      //   if (ArrayUtils.matchAttributes(targetBattlerActor.status, { animation: systemStatus.animation }, true, '==', true).length === 0)
+      //     targetBattler.stopAnimation(systemStatus.animation)
+      // }
       // -- 事件处理
       EventUtils.happen(GameBattleData, GameBattleData.EVENT_REMOVE_STATUS, [targetBattler, statusID, removedStatus])
       if (systemStatus.eventSetting && systemStatus.removeEvent)
